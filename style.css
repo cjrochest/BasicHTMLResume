@@ -1,0 +1,74 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.headshot {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+p#contact-info {
+    font-size: 0.9em;
+    color: #555;
+}
+
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.job {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.job:hover {
+    background: #f1f1f1;
+}
+
+#job-details {
+    padding: 10px;
+    background: #eee;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    display: none;
+}

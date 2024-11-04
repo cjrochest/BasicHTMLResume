@@ -1,0 +1,14 @@
+// script.js
+
+document.addEventListener("DOMContentLoaded", function () {
+    const jobs = document.querySelectorAll(".job");
+    const jobDetails = document.getElementById("job-details");
+
+    jobs.forEach((job) => {
+        job.addEventListener("click", function () {
+            const details = job.getAttribute("data-details");
+            jobDetails.textContent = details;
+            jobDetails.style.display = "block";
+        });
+    });
+});
